@@ -193,4 +193,48 @@
 		</duration>
 	</role>
 
+	<role>
+		<name>Stage Hands 0</name>
+		<duration>
+			<heads>2</heads>
+			<start>2012-08-31 09:00:00</start>
+			<end>2012-08-31 21:00:00</end>
+			<importance>3</importance>
+		</duration>
+		<duration>
+			<heads>2</heads>
+			<start>2012-09-01 09:00:00</start>
+			<end>2012-09-01 21:00:00</end>
+			<importance>3</importance>
+		</duration>
+		<duration>
+			<heads>2</heads>
+			<start>2012-09-02 09:00:00</start>
+			<end>2012-09-02 21:00:00</end>
+			<importance>3</importance>
+		</duration>
+	</role>
+
+	<role>
+		<name>Stage Hands 1</name>
+		<duration>
+			<heads>1</heads>
+			<start>2012-08-31 09:00:00</start>
+			<end>2012-08-31 21:00:00</end>
+			<importance>2</importance>
+		</duration>
+		<duration>
+			<heads>1</heads>
+			<start>2012-09-01 09:00:00</start>
+			<end>2012-09-01 21:00:00</end>
+			<importance>2</importance>
+		</duration>
+		<duration>
+			<heads>1</heads>
+			<start>2012-09-02 09:00:00</start>
+			<end>2012-09-02 21:00:00</end>
+			<importance>2</importance>
+		</duration>
+	</role>
+
 </emf>
