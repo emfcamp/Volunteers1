@@ -1,0 +1,196 @@
+<emf>
+	<role>
+		<name>Front Gate 0</name>
+		<duration>
+			<heads>2</heads>
+			<start>2012-08-31 08:00:00</start>
+			<end>2012-09-03 14:00:00</end>
+			<importance>3</importance>
+		</duration>
+	</role>
+
+	<role>
+		<name>Front Gate 1</name>
+		<duration>
+			<heads>1</heads>
+			<start>2012-08-31 08:00:00</start>
+			<end>2012-09-03 14:00:00</end>
+			<importance>1</importance>
+		</duration>
+
+	</role>
+
+	<role>
+		<name>Security Roving 0</name>
+		<duration>
+			<heads>2</heads>
+			<start>2012-08-31 08:00:00</start>
+			<end>2012-09-03 14:00:00</end>
+			<importance>2</importance>
+		</duration>
+	</role>
+
+	<role>
+		<name>Security Roving 1</name>
+		<duration>
+			<heads>2</heads>
+			<start>2012-08-31 08:00:00</start>
+			<end>2012-09-03 14:00:00</end>
+			<importance>2</importance>
+		</duration>
+	</role>
+
+
+	<role>
+		<name>Infodesk 0</name>
+		<duration>
+			<heads>1</heads>
+			<start>2012-08-31 08:00:00</start>
+			<end>2012-08-31 21:00:00</end>
+			<importance>3</importance>
+		</duration>
+		<duration>
+			<heads>1</heads>
+			<start>2012-09-01 08:00:00</start>
+			<end>2012-09-01 21:00:00</end>
+			<importance>3</importance>
+		</duration>
+		<duration>
+			<heads>1</heads>
+			<start>2012-09-02 08:00:00</start>
+			<end>2012-09-02 21:00:00</end>
+			<importance>3</importance>
+		</duration>
+	</role>
+
+	<role>
+		<name>Infodesk 1</name>
+			<duration>
+			<heads>1</heads>
+			<start>2012-08-31 08:00:00</start>
+			<end>2012-08-31 21:00:00</end>
+			<importance>3</importance>
+		</duration>
+		<duration>
+			<heads>1</heads>
+			<start>2012-09-01 08:00:00</start>
+			<end>2012-09-01 21:00:00</end>
+			<importance>3</importance>
+		</duration>
+		<duration>
+			<heads>1</heads>
+			<start>2012-09-02 08:00:00</start>
+			<end>2012-09-02 21:00:00</end>
+			<importance>3</importance>
+		</duration>
+	</role>
+
+
+	<role>
+		<name>Shuttle Bus</name>
+		<duration>
+			<heads>1</heads>
+			<start>2012-08-31 09:00:00</start>
+			<end>2012-08-31 21:00:00</end>
+			<importance>3</importance>
+		</duration>
+
+		<duration>
+			<heads>1</heads>
+			<start>2012-09-01 09:00:00</start>
+			<end>2012-08-31 21:00:00</end>
+			<importance>3</importance>
+		</duration>
+
+		<duration>
+			<heads>1</heads>
+			<start>2012-09-02 09:00:00</start>
+			<end>2012-08-31 21:00:00</end>
+			<importance>3</importance>
+		</duration>
+
+		<duration>
+			<heads>1</heads>
+			<start>2012-09-03 09:00:00</start>
+			<end>2012-09-03 14:00:00</end>
+			<importance>3</importance>
+		</duration>
+	</role>
+
+	<role>
+		<name>Car Park Attendants 0</name>
+		<duration>
+			<heads>2</heads>
+			<start>2012-08-31 09:00:00</start>
+			<end>2012-08-31 15:00:00</end>
+			<importance>3</importance>
+		</duration>
+		<duration>
+			<heads>2</heads>
+			<start>2012-09-02 09:00:00</start>
+			<end>2012-09-02 15:00:00</end>
+			<importance>3</importance>
+		</duration>
+	</role>
+
+	<role>
+		<name>Car Park Attendants 1</name>
+		<duration>
+			<heads>2</heads>
+			<start>2012-08-31 09:00:00</start>
+			<end>2012-08-31 15:00:00</end>
+			<importance>2</importance>
+		</duration>
+		<duration>
+			<heads>2</heads>
+			<start>2012-09-02 09:00:00</start>
+			<end>2012-09-02 15:00:00</end>
+			<importance>2</importance>
+		</duration>
+	</role>
+
+
+	<role>
+		<name>Bar Staff</name>
+		<duration>
+			<heads>4</heads>
+			<start>2012-08-31 09:00:00</start>
+			<end>2012-08-31 23:00:00</end>
+			<importance>3</importance>
+		</duration>
+		<duration>
+			<heads>4</heads>
+			<start>2012-09-01 09:00:00</start>
+			<end>2012-09-01 23:00:00</end>
+			<importance>3</importance>
+		</duration>
+		<duration>
+			<heads>4</heads>
+			<start>2012-09-02 09:00:00</start>
+			<end>2012-09-02 23:00:00</end>
+			<importance>3</importance>
+		</duration>
+		
+	</role>
+
+	<role>
+		<name>Infratructure Manager</name>
+		<duration>
+			<heads>1</heads>
+			<start>2012-08-30 09:00:00</start>
+			<end>2012-09-04 17:00:00</end>
+			<importance>3</importance>
+		</duration>
+	</role>
+
+	<role>
+		<name>Volunteer Coordinator</name>
+		<duration>
+			<heads>1</heads>
+			<start>2012-08-30 09:00:00</start>
+			<end>2012-09-04 17:00:00</end>
+			<importance>3</importance>
+		</duration>
+	</role>
+
+</emf>
