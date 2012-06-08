@@ -130,14 +130,14 @@ class Schedule():
 		optimal = 0
 		print self.shiftRange(), "shifts of", self.shift_duration, "hours each"
 		for role in self.shifts:
-			print "    ", role, self.numberOfShifts(role)
+			print "*", role, self.numberOfShifts(role)
 			optimal = optimal + self.numberOfShifts(role)
 		print "Optimal Number", optimal
 		print 
 		minimum = 0
 		print self.shiftRange(), "shifts of", self.shift_duration, "hours each"
 		for role in self.shifts:
-			print "    ", role, self.numberOfShifts(role,[3])
+			print "*", role, self.numberOfShifts(role,[3])
 			minimum = minimum + self.numberOfShifts(role,[3])
 		print "Minimal Number", minimum
 	
@@ -149,6 +149,8 @@ class Schedule():
 		tabard_costs = people * 7
 		if people >= 250:
 			tabard_costs = people  * 2.5
+		if people >=118:
+			tabard_costs = 675
 		return tabard_costs
 
 
@@ -160,11 +162,12 @@ class Schedule():
 		for role in self.shifts:
 			minimum = minimum + self.numberOfShifts(role,[3])
 
+		spp = 3
 		# Number of people eating - assume they do 3 shifts each
 		# Tabards - Assume they get to keep if they do 3 shifts or more
 
-		print "Optimal costs for Food", self.foodCosts(optimal / 3), "and tabards", self.tabardCosts(optimal / 3)
-		print "Minimum costs for Food", self.foodCosts(minimum / 3), "and tabards", self.tabardCosts(minimum / 3)
+		print "Optimal costs for Food", self.foodCosts(optimal / 3), "and tabards", self.tabardCosts(optimal / 3), "for", optimal / 3, "people assuming each person does",spp,"shifts" 
+		print "Minimum costs for Food", self.foodCosts(minimum / 3), "and tabards", self.tabardCosts(minimum / 3), "for", minimum / 3, "people assuming each person does",spp,"shifts"
 
 	def overlap(self, s0,e0, s1,e1):
 		return (e0 >= s1 and e0 <= e1) or (s0 >= s1 and s1 <= e1)
@@ -177,4 +180,3 @@ if __name__ == "__main__":
 	s.plotShifts()
 	print 
 	s.printCostings()
-	print s.shift_times
