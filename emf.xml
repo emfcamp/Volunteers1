@@ -45,19 +45,20 @@
 		<name>Infodesk 0</name>
 		<duration>
 			<heads>1</heads>
-			<start>2012-08-31 08:00:00</start>
+			<!-- Changed to be open for a multiple of 3 hours -->
+			<start>2012-08-31 09:00:00</start>
 			<end>2012-08-31 21:00:00</end>
 			<importance>3</importance>
 		</duration>
 		<duration>
 			<heads>1</heads>
-			<start>2012-09-01 08:00:00</start>
+			<start>2012-09-01 09:00:00</start>
 			<end>2012-09-01 21:00:00</end>
 			<importance>3</importance>
 		</duration>
 		<duration>
 			<heads>1</heads>
-			<start>2012-09-02 08:00:00</start>
+			<start>2012-09-02 09:00:00</start>
 			<end>2012-09-02 21:00:00</end>
 			<importance>3</importance>
 		</duration>
@@ -67,21 +68,21 @@
 		<name>Infodesk 1</name>
 			<duration>
 			<heads>1</heads>
-			<start>2012-08-31 08:00:00</start>
+			<start>2012-08-31 09:00:00</start>
 			<end>2012-08-31 21:00:00</end>
-			<importance>3</importance>
+			<importance>2</importance>
 		</duration>
 		<duration>
 			<heads>1</heads>
-			<start>2012-09-01 08:00:00</start>
+			<start>2012-09-01 09:00:00</start>
 			<end>2012-09-01 21:00:00</end>
-			<importance>3</importance>
+			<importance>2</importance>
 		</duration>
 		<duration>
 			<heads>1</heads>
-			<start>2012-09-02 08:00:00</start>
+			<start>2012-09-02 09:00:00</start>
 			<end>2012-09-02 21:00:00</end>
-			<importance>3</importance>
+			<importance>2</importance>
 		</duration>
 	</role>
 
@@ -91,28 +92,28 @@
 		<duration>
 			<heads>1</heads>
 			<start>2012-08-31 09:00:00</start>
-			<end>2012-08-31 21:00:00</end>
+			<end>2012-08-31 18:00:00</end>
 			<importance>3</importance>
 		</duration>
-
-		<duration>
+		<!-- Removed Saturday & Sunday: first and last only -->
+		<!-- <duration>
 			<heads>1</heads>
 			<start>2012-09-01 09:00:00</start>
-			<end>2012-08-31 21:00:00</end>
+			<end>2012-08-31 18:00:00</end>
 			<importance>3</importance>
-		</duration>
+		</duration>     -->
 
-		<duration>
+		<!-- <duration>
 			<heads>1</heads>
 			<start>2012-09-02 09:00:00</start>
-			<end>2012-08-31 21:00:00</end>
+			<end>2012-08-31 18:00:00</end>
 			<importance>3</importance>
-		</duration>
+		</duration>            -->
 
 		<duration>
 			<heads>1</heads>
 			<start>2012-09-03 09:00:00</start>
-			<end>2012-09-03 14:00:00</end>
+			<end>2012-09-03 15:00:00</end>
 			<importance>3</importance>
 		</duration>
 	</role>
@@ -151,26 +152,47 @@
 
 
 	<role>
-		<name>Bar Staff</name>
+		<name>Bar Staff 0</name>
 		<duration>
-			<heads>4</heads>
-			<start>2012-08-31 09:00:00</start>
+			<heads>2</heads>
+			<start>2012-08-31 11:00:00</start>
 			<end>2012-08-31 23:00:00</end>
 			<importance>3</importance>
 		</duration>
 		<duration>
-			<heads>4</heads>
-			<start>2012-09-01 09:00:00</start>
+			<heads>2</heads>
+			<start>2012-09-01 11:00:00</start>
 			<end>2012-09-01 23:00:00</end>
 			<importance>3</importance>
 		</duration>
 		<duration>
-			<heads>4</heads>
-			<start>2012-09-02 09:00:00</start>
+			<heads>2</heads>
+			<start>2012-09-02 11:00:00</start>
 			<end>2012-09-02 23:00:00</end>
 			<importance>3</importance>
 		</duration>
-		
+
+	</role>  
+	<role>
+		<name>Bar Staff 1</name>
+		<duration>
+			<heads>2</heads>
+			<start>2012-08-31 11:00:00</start>
+			<end>2012-08-31 23:00:00</end>
+			<importance>2</importance>
+		</duration>
+		<duration>
+			<heads>2</heads>
+			<start>2012-09-01 11:00:00</start>
+			<end>2012-09-01 23:00:00</end>
+			<importance>2</importance>
+		</duration>
+		<duration>
+			<heads>2</heads>
+			<start>2012-09-02 11:00:00</start>
+			<end>2012-09-02 23:00:00</end>
+			<importance>2</importance>
+		</duration>
 	</role>
 
 	<role>
@@ -178,7 +200,7 @@
 		<duration>
 			<heads>1</heads>
 			<start>2012-08-30 09:00:00</start>
-			<end>2012-09-04 17:00:00</end>
+			<end>2012-09-04 18:00:00</end>
 			<importance>3</importance>
 		</duration>
 	</role>
@@ -188,7 +210,7 @@
 		<duration>
 			<heads>1</heads>
 			<start>2012-08-30 09:00:00</start>
-			<end>2012-09-04 17:00:00</end>
+			<end>2012-09-04 18:00:00</end>
 			<importance>3</importance>
 		</duration>
 	</role>
